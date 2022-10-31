@@ -8,11 +8,11 @@
 
 
 use std::f32;
-use std::f32::consts::PI;
 
 fn main() {
+    let pi = f32::consts::PI;
     let radius: f32 = 5.00;
-    let area: f32 = PI * (f32::powi(radius, 2));
+    let area: f32 = pi * (f32::powi(radius, 2));
 
     println!(
         "The area of a circle with radius {:.3} is {:.5}!",
